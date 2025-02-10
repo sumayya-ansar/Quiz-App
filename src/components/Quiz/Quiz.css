@@ -1,0 +1,85 @@
+.container{
+    width:500px;
+    height:480px;
+    
+    margin: auto;
+    margin-top: 40px;
+    background-color: aliceblue;
+    color: #4e0546;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+.container hr{
+    height:5px;
+    outline-style: double;
+    margin-bottom: 5px;
+    border:none;
+    background: #640221;
+}
+.container h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+.container ul li{
+    display:flex;
+    font-size: medium;
+    font-weight: 600;
+
+    align-items: center;
+    height: 40px;
+    padding-left: 15px;
+    border: 1px solid #4e0546;
+    border-radius: 8px;
+    margin-bottom:10px;
+    cursor: pointer;
+}
+.container button{
+    
+    width:120px;
+    height:40px;
+    background-color: #4e0546;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 auto;
+    
+}
+.container .index{ 
+    
+    margin: 0 auto; 
+    font-size: 15px;
+    color: rgb(102, 7, 96);
+}
+.container  .correct {
+    background: #a3dfc7;
+    border-color:#356d56 ;
+}
+.container .wrong{
+    background: #f67d7d;
+    border-color:red ;
+}
+.container .result{
+    width:100px;
+    height:40px;
+    background-color: #4e0546;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    
+    margin: 0 auto;
+
+}
+.container p{
+    margin-top: 90px;
+    margin-bottom:20px;
+    margin-left: 160px;
+    font-size: 20px;
+    font-weight: 600;
+}
