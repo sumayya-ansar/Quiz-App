@@ -1,4 +1,4 @@
- 
+
 1. **Project Overview:**
    - This is a React-based quiz app where users can test their knowledge by answering multiple-choice questions. The app provides feedback on correct and incorrect answers.
 
